@@ -1,7 +1,7 @@
 {
   "name": "bemto.jade",
   "version": "1.0.2",
-  "main": "./lib/index.jade",
+  "main": "./lib/index.pug",
   "author": "Roman Komarov <kizu@kizu.ru>",
   "licence": "MIT",
   "description": "Smart mixins for writing BEM in Jade",
@@ -25,5 +25,12 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha --require should --reporter list"
   },
-  "engines": { "node": "*" }
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "jade": "1.11.0",
+    "mocha": "2.4.5",
+    "should": "2.0.2"
+  }
 }
